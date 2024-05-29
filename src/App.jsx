@@ -52,7 +52,7 @@ function Header() {
                   <li className="navpage__list"><a href="#aboutsection">{t('about')}</a></li>
                   <li className="navpage__list"><a href="#servicesection">{t('service')}</a></li>
                   <li className="navpage__list"><a href="#portfoliosection">{t('portfolio')}</a></li>
-                  <li className="navpage__list"><a href="#contactsection">{t('contact')}</a></li>
+            
                   <li className="navpage__list">
                     <button className="language-button" onClick={handleChangeLanguage}>
                       {t('changeToSpanish')}
@@ -74,7 +74,6 @@ function Header() {
             <li><a href="#aboutsection">{t('about')}</a></li>
             <li><a href="#servicesection">{t('service')}</a></li>
             <li><a href="#portfoliosection">{t('portfolio')}</a></li>
-            <li><a href="#contactsection">{t('contact')}</a></li>
           </ul>
         </div>
       </div>
@@ -276,8 +275,6 @@ function Service() {
               <div className="warpfilter text-left">
                 <ul id="filterwrap" className="warpfilter__filter justify-content-left text-center text-lg-left">
                   <li data-group="all" className="active">{t('all')}</li>
-                  <li data-group="web">{t('webDesign')}</li>
-                  <li data-group="branding">{t('app')}</li>
                 </ul>
               </div>
               {/* end filter portfolio */}
@@ -360,14 +357,7 @@ function Footer() {
                 </div>
                 <div className="col-lg-3">
                   <div className="footerwrap__links">
-                    <h5>{t('quickLinks')}</h5>
-                    <ul>
-                      <li><a href="#sectionhero">{t('home')}</a></li>
-                      <li><a href="#aboutsection">{t('aboutMe')}</a></li>
-                      <li><a href="#servicesection">{t('services')}</a></li>
-                      <li><a href="#portfoliosection">{t('portfolioLink')}</a></li>
-                      <li><a href="#contactsection">{t('contactLink')}</a></li>
-                    </ul>
+                  
                   </div>
                 </div>
                 <div className="col-lg-3">
@@ -379,17 +369,6 @@ function Footer() {
                     <p>
                       <i className="fa fa-phone"></i> {t('phoneNumberText')}
                     </p>
-                  </div>
-                </div>
-                <div className="col-lg-3">
-                  <div className="footerwrap__social">
-                    <h5>{t('followMe')}</h5>
-                    <ul>
-                      <li><a href="#!">Facebook</a></li>
-                      <li><a href="#!">Twitter</a></li>
-                      <li><a href="#!">Instagram</a></li>
-                      <li><a href="#!">Binance</a></li> {/* Nombre de Binance */}
-                    </ul>
                   </div>
                 </div>
               </div>
