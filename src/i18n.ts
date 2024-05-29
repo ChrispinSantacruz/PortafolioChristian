@@ -1,0 +1,110 @@
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
+
+i18n
+  .use(initReactI18next)
+  .init({
+    lng: 'en',
+    fallbackLng: 'en',
+    interpolation: {
+      escapeValue: false,
+    },
+    resources: {
+      en: {
+        translation: {
+          title: 'Multi-language app',
+          intro: 'Intro',
+          about: 'About me',
+          service: 'Service',
+          portfolio: 'Portfolio',
+          contact: 'Contact',
+          hello: 'Hello, I\'m',
+          santacruz: 'Santacruz', 
+          poto: 'poto',
+          changeToSpanish: 'Change to Español',
+          fullName: 'FULL NAME',
+          emailAddress: 'EMAIL ADDRESS',
+          phoneNumber: 'PHONE NUMBER',
+          speciality: 'SPECIALITY',
+          telegram: 'TELEGRAM',
+          projectsCompleted: 'Projects completed',
+          yearsOfExperience: 'Years of experience',
+          happyClients: 'Happy Clients',
+          onProjects: 'On Projects',
+          all: 'All',
+          webDesign: 'Web Design',
+          app: 'App',
+          weAreATeam: 'We are a team of experienced and talented developers, designers, and digital strategists. Together, we deliver exceptional solutions tailored to your needs.',
+          quickLinks: 'Quick Links',
+          home: 'Home',
+          aboutMe: 'About Me',
+          services: 'Services',
+          portfolioLink: 'Portfolio',
+          contactLink: 'Contact',
+          contactInfo: 'Contact Info',
+          email: 'Chrissantacruz0603@gmail.com',
+          phoneNumberText: '+57 3008468223',
+          followMe: 'Follow Me',
+          rightsReserved: '© 2024 All Rights Reserved by Chris Santacruz',
+          graphicDesigner: 'Graphic Designer',
+          graphicDesignerDescription:
+            'I collaborate with SMK, one of the most prominent designers in the market, to bring you exceptional website design. Our association guarantees a visually striking and highly functional result for your project. Trust our joint experience to take your online presence to the next level.',
+          webDeveloper: 'Web Developer',
+          webDeveloperDescription:
+            'With 2 years of front-end and 6 months of back-end expertise, I specialize in crafting captivating and highly functional websites. Teaming up with SMK, a design powerhouse, we\'re set to deliver a website that seamlessly blends aesthetics and performance. Elevate your online presence with our dynamic collaboration.',
+          androidApplicationDeveloper: 'Android Application Developer',
+          androidApplicationDeveloperDescription:
+            'With a focused 3-month journey as an app developer, I guarantee to bring your dream application to life alongside SMK. Count on us to transform your vision into reality. Together, we create the perfect app that resonates with excellence and innovation, backed by SMK\'s expertise.',
+        },
+      },
+      es: {
+        translation: {
+          title: 'Aplicación en varios idiomas',
+          intro: 'Intro',
+          about: 'Sobre mí',
+          service: 'Servicios',
+          portfolio: 'Portafolio',
+          contact: 'Contacto',
+          hello: 'Hola, soy',
+          santacruz: 'Santacruz',
+          poto: 'poto',
+          changeToSpanish: 'Cambiar a Español',
+          fullName: 'NOMBRE COMPLETO',
+          emailAddress: 'CORREO ELECTRÓNICO',
+          phoneNumber: 'NÚMERO DE TELÉFONO',
+          speciality: 'ESPECIALIDAD',
+          telegram: 'TELEGRAMA',
+          projectsCompleted: 'Proyectos completados',
+          yearsOfExperience: 'Años de experiencia',
+          happyClients: 'Clientes satisfechos',
+          onProjects: 'En Proyectos',
+          all: 'Todos',
+          webDesign: 'Diseño Web',
+          app: 'Aplicación',
+          weAreATeam: 'Somos un equipo de desarrolladores, diseñadores y estrategas digitales experimentados y talentosos. Juntos, entregamos soluciones excepcionales adaptadas a tus necesidades.',
+          quickLinks: 'Enlaces Rápidos',
+          home: 'Inicio',
+          aboutMe: 'Sobre Mí',
+          services: 'Servicios',
+          portfolioLink: 'Portafolio',
+          contactLink: 'Contacto',
+          contactInfo: 'Información de Contacto',
+          email: 'Chrissantacruz0603@gmail.com',
+          phoneNumberText: '+57 3008468223',
+          followMe: 'Sígueme',
+          rightsReserved: '© 2024 Todos los derechos reservados por Chris Santacruz',
+          graphicDesigner: 'Diseñador Gráfico',
+          graphicDesignerDescription:
+            'Colaboro con SMK, uno de los diseñadores más destacados del mercado, para brindarte un diseño de sitios web excepcional. Nuestra asociación garantiza un resultado visualmente impactante y altamente funcional para tu proyecto. Confía en nuestra experiencia conjunta para llevar tu presencia en línea al siguiente nivel.',
+          webDeveloper: 'Desarrollador Web',
+          webDeveloperDescription:
+            'Con 2 años de experiencia en front-end y 6 meses en back-end, me especializo en crear sitios web cautivadores y altamente funcionales. Trabajando con SMK, un referente en diseño, estamos listos para ofrecerte un sitio web que combina perfectamente la estética y el rendimiento. Eleva tu presencia en línea con nuestra colaboración dinámica.',
+          androidApplicationDeveloper: 'Desarrollador de Aplicaciones Android',
+          androidApplicationDeveloperDescription:
+            'Con un enfoque de 3 meses como desarrollador de aplicaciones, garantizo dar vida a tu aplicación soñada junto con SMK. Confía en nosotros para convertir tu visión en realidad. Juntos, creamos la aplicación perfecta que resuena con excelencia e innovación, respaldada por la experiencia de SMK.',
+        },
+      },
+    },
+  });
+
+export default i18n;
