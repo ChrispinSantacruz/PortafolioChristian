@@ -35,7 +35,7 @@ function Header() {
             <div className="col-xs-12 col-md-12 col-lg-2">
               {/* wrap logo */}
               <div className="headerwrap__logo">
-                <img src="src\assets\page\LOGO WEB-02.png" alt="logo" className="img-fluid" />
+                <img src="/public/images/LOGOWEB-02.png" alt="logo" className="img-fluid" />
               </div>
               {/* end wrap logo */}
               {/* navigation icon  */}
@@ -105,7 +105,7 @@ function MainWrap() {
             </div>
             <div className="col-lg-6 text-center order-0 order-lg-1 mb-5 mb-lg-0">
               <div className="heroimg">
-                <img src="src\assets\hero\1.gif" alt="poto" className="img-fluid heroimg__poto" />
+                <img src="/public/images/1.gif" alt="poto" className="img-fluid heroimg__poto" />
               </div>
             </div>
           </div>
@@ -284,49 +284,49 @@ function Service() {
               <div id="porfoliowarp" className="grid-gutter-md grid-col-3">
                 {/*  PORFOLIO ITEM */}
                 <div className="porfoliowarp__item" data-groups='["branding"]'>
-                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="src/assets/portfolio/shibarium.jpg">
+                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="/public/images/shibarium.jpg">
                     <i className="fa-solid fa-circle-plus"></i>
-                    <div className="porfoliowarp__content" style={{ background: "url(src/assets/portfolio/shibarium.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
+                    <div className="porfoliowarp__content" style={{ background: "url(/public/images/shibarium.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
                   </a>
                 </div>
                 {/* END PORTFOLIO ITEM */}
                 {/*  PORFOLIO ITEM */}
                 <div className="porfoliowarp__item" data-groups='["web"]'>
-                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="src/assets/portfolio/Odontologia.jpg">
+                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="/public/images/Odontologia.jpg">
                     <i className="fa-solid fa-circle-plus"></i>
-                    <div className="porfoliowarp__content" style={{ background: "url(src/assets/portfolio/Odontologia.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
+                    <div className="porfoliowarp__content" style={{ background: "url(/public/images/Odontologia.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
                   </a>
                 </div>
                 {/* END PORTFOLIO ITEM */}
                 {/*  PORFOLIO ITEM */}
                 <div className="porfoliowarp__item" data-groups='["branding"]'>
-                  <a className="porfoliowarp__portolink glightboxvideo" data-glightbox="type: image" href="src/assets/portfolio/Web.jpg">
+                  <a className="porfoliowarp__portolink glightboxvideo" data-glightbox="type: image" href="/public/images/Web.jpg">
                     <i className="fa-solid fa-circle-plus"></i>
-                    <div className="porfoliowarp__content" style={{ background: "url(src/assets/portfolio/Web.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
+                    <div className="porfoliowarp__content" style={{ background: "url(/public/images/Web.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
                   </a>
                 </div>
                 {/* END PORTFOLIO ITEM */}
                                 {/*  PORFOLIO ITEM */}
                                 <div className="porfoliowarp__item" data-groups='["branding"]'>
-                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="src/assets/portfolio/slugs.jpg">
+                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="/public/images/slugs.jpg">
                     <i className="fa-solid fa-circle-plus"></i>
-                    <div className="porfoliowarp__content" style={{ background: "url(src/assets/portfolio/slugs.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
+                    <div className="porfoliowarp__content" style={{ background: "url(/public/images/slugs.jpg) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
                   </a>
                 </div>
                 {/* END PORTFOLIO ITEM */}
                 {/*  PORFOLIO ITEM */}
                 <div className="porfoliowarp__item" data-groups='["web"]'>
-                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="src/assets/portfolio/Jugos.png">
+                  <a className="porfoliowarp__portolink glightbox" data-glightbox="type: image" href="/public/images/Jugos.png">
                     <i className="fa-solid fa-circle-plus"></i>
-                    <div className="porfoliowarp__content" style={{ background: "url(src/assets/portfolio/Jugos.png) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
+                    <div className="porfoliowarp__content" style={{ background: "url(/public/images/Jugos.png) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
                   </a>
                 </div>
                 {/* END PORTFOLIO ITEM */}
                 {/*  PORFOLIO ITEM */}
                 <div className="porfoliowarp__item" data-groups='["branding"]'>
-                  <a className="porfoliowarp__portolink glightboxvideo" data-glightbox="type: image" href="src/assets/portfolio/Bigpoppa.png">
+                  <a className="porfoliowarp__portolink glightboxvideo" data-glightbox="type: image" href="/public/images/Bigpoppa.png">
                     <i className="fa-solid fa-circle-plus"></i>
-                    <div className="porfoliowarp__content" style={{ background: "url(src/assets/portfolio/Bigpoppa.png) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
+                    <div className="porfoliowarp__content" style={{ background: "url(/public/images/Bigpoppa.png) no-repeat center", backgroundPosition: "center", backgroundSize: "cover" }}></div>
                   </a>
                 </div>
                 {/* END PORTFOLIO ITEM */}
@@ -354,7 +354,7 @@ function Footer() {
               <div className="row">
                 <div className="col-lg-3">
                   <div className="footerwrap__about">
-                    <img src="src/assets/page/LOGO WEB-02.png" alt="logoweb" className="img-fluid" />
+                    <img src="/public/images/LOGOWEB-02.png" alt="logoweb" className="img-fluid" />
                     <p className="mt-4">{t('weAreATeam')}</p>
                   </div>
                 </div>
